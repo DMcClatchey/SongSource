@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp"
+    tools:context="com.song_source.songsource.HomeScreen">
+
+    <VideoView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:id="@+id/FirstVid"
+        android:layout_centerHorizontal="true" />
+
+    <VideoView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:id="@+id/SecondVid"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/FirstVid"
+        android:layout_alignStart="@+id/FirstVid" />
+
+</RelativeLayout>
